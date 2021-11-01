@@ -1,4 +1,4 @@
-import { Text, Box, Flex, Image, Link, Button } from "@chakra-ui/react";
+import { Text, Flex, Image, Link, Button } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 import { css } from "@emotion/react";
 
