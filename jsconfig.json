@@ -7,11 +7,5 @@
       "components/*": ["components/*"],
       "pages/*": ["pages/*"]
     }
-  },
-  "exclude": [
-    "node_modules",
-    ".next",
-    "dist",
-    "out"
-  ]
+  }
 }

@@ -32,18 +32,6 @@ const LoginPage = () => {
   `;
 
   return (
-    // <div className="index_main_container">
-    //   <div className="login_box">
-    //     <div className="login_logo">
-    //       <img src="/icons/logo.svg" alt="logo" width={48} />
-    //       <h2>Dashboard Kit</h2>
-    //     </div>
-    //     <div className="login_title">
-    //       <h1>Log In to Dashboard Kit</h1>
-    //       <h4>Enter your email and password below</h4>
-    //     </div>
-    //   </div>
-    // </div>
     <BgContainer>
       <Box
         m="auto"
@@ -94,8 +82,19 @@ const LoginPage = () => {
           </Link>
         </Text>
       </Box>
-      {/* <LoginBox>test login page</LoginBox> */}
     </BgContainer>
+    /* <div className="index_main_container">
+      <div className="login_box">
+        <div className="login_logo">
+          <img src="/icons/logo.svg" alt="logo" width={48} />
+          <h2>Dashboard Kit</h2>
+        </div>
+        <div className="login_title">
+          <h1>Log In to Dashboard Kit</h1>
+          <h4>Enter your email and password below</h4>
+        </div>
+      </div>
+    </div> */
   );
 };
 
