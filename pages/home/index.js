@@ -38,6 +38,7 @@ const HomePage = () => {
     padding: 1.5rem 2rem;
     border-width: 1px;
     border-radius: 8px;
+    cursor: pointer;
   `;
   return (
     <MainContainer>
