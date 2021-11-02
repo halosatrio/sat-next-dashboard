@@ -1,6 +1,27 @@
-import { Text, Flex, Image, Link, Button } from "@chakra-ui/react";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { Text, Flex, Image, Button } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 import { css } from "@emotion/react";
+
+const sidebarMenu = [
+  {
+    label: "home",
+    icon_active: "/icons/overview-active.svg",
+    icon: "/icons/overview.svg",
+    href: "/home",
+  },
+  {
+    label: "tickets",
+    icon_active: "/icons/ticket-active.svg",
+    icon: "/icons/ticket.svg",
+    href: "/tickets",
+  },
+  { label: "ideas", icon_active: "", icon: "/icons/ideas.svg", href: "#" },
+  { label: "contacts", icon_active: "", icon: "/icons/contact.svg", href: "#" },
+  { label: "agents", icon_active: "", icon: "/icons/agent.svg", href: "#" },
+  { label: "articles", icon_active: "", icon: "/icons/article.svg", href: "#" },
+];
 
 const Sidebar = () => {
   const SidebarContainer = styled.div`
@@ -31,6 +52,12 @@ const Sidebar = () => {
     align-items: center;
     margin: 0 3px;
   `;
+  const capitalize = css`
+    text-transform: capitalize;
+  `;
+
+  const { pathname } = useRouter();
+  console.log("pathname", pathname);
 
   return (
     <SidebarContainer>
@@ -45,72 +72,30 @@ const Sidebar = () => {
           Dashboard Kit
         </Text>
       </Flex>
-      <Flex css={menu_active}>
-        <Image
-          src="/icons/overview-active.svg"
-          alt="logo"
-          boxSize="16px"
-          marginRight="1.2rem"
-        />
-        <Text as="p" fontSize="sm" color="#DDE2FF" fontWeight="light">
-          Overview
-        </Text>
-      </Flex>
-      <Flex css={menu}>
-        <Image
-          src="/icons/ticket.svg"
-          alt="logo"
-          boxSize="16px"
-          marginRight="1.2rem"
-        />
-        <Text as="p" fontSize="sm" color="#A4A6B3" fontWeight="light">
-          Tickets
-        </Text>
-      </Flex>
-      <Flex css={menu}>
-        <Image
-          src="/icons/ideas.svg"
-          alt="logo"
-          boxSize="16px"
-          marginRight="1.2rem"
-        />
-        <Text as="p" fontSize="sm" color="#A4A6B3" fontWeight="light">
-          Ideas
-        </Text>
-      </Flex>
-      <Flex css={menu}>
-        <Image
-          src="/icons/contact.svg"
-          alt="logo"
-          boxSize="16px"
-          marginRight="1.2rem"
-        />
-        <Text as="p" fontSize="sm" color="#A4A6B3" fontWeight="light">
-          Contacts
-        </Text>
-      </Flex>
-      <Flex css={menu}>
-        <Image
-          src="/icons/agent.svg"
-          alt="logo"
-          boxSize="16px"
-          marginRight="1.2rem"
-        />
-        <Text as="p" fontSize="sm" color="#A4A6B3" fontWeight="light">
-          Agents
-        </Text>
-      </Flex>
-      <Flex css={menu}>
-        <Image
-          src="/icons/article.svg"
-          alt="logo"
-          boxSize="16px"
-          marginRight="1.2rem"
-        />
-        <Text as="p" fontSize="sm" color="#A4A6B3" fontWeight="light">
-          Articles
-        </Text>
-      </Flex>
+      {sidebarMenu.map((item) => (
+        <Link href={item.href} key={item.label}>
+          <a>
+            <Flex css={pathname === "/" + item.label ? menu_active : menu}>
+              <Image
+                src={item.icon}
+                alt="logo"
+                boxSize="16px"
+                marginRight="1.2rem"
+              />
+              <Text
+                as="p"
+                fontSize="sm"
+                color="#DDE2FF"
+                fontWeight="light"
+                css={capitalize}
+              >
+                {item.label === "home" ? "Overview" : item.label}
+              </Text>
+            </Flex>
+          </a>
+        </Link>
+      ))}
+
       <Separator />
       <Flex css={menu}>
         <Image
