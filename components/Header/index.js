@@ -1,7 +1,7 @@
 import { Text, Flex, Image, Link, Button } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 
-const Header = () => {
+const Header = ({ title }) => {
   const Separator = styled.div`
     background-color: #c5c7cd;
     height: 32px;
@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <Flex justifyContent="space-between" marginBottom="54px">
       <Text as="h2" fontSize="2xl" fontWeight="bold">
-        Overview
+        {title}
       </Text>
       <Flex alignItems="center">
         <Image
