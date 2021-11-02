@@ -57,7 +57,6 @@ const Sidebar = () => {
   `;
 
   const { pathname } = useRouter();
-  console.log("pathname", pathname);
 
   return (
     <SidebarContainer>

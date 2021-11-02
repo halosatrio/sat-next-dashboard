@@ -47,7 +47,12 @@ const TicketPage = () => {
             All Tickets
           </Text>
           <Flex alignItems="center">
-            <Image src="/icons/sort.svg" boxSize="14px" marginRight="0.5rem" />
+            <Image
+              src="/icons/sort.svg"
+              boxSize="14px"
+              marginRight="0.5rem"
+              alt="icon"
+            />
             <Text as="p" fontSize="sm" marginRight="2rem" color="gray.600">
               Sort
             </Text>
@@ -56,6 +61,7 @@ const TicketPage = () => {
               boxSize="14px"
               marginRight="0.5rem"
               color="gray.600"
+              alt="icon"
             />
             <Text as="p" fontSize="sm">
               Filter

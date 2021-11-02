@@ -60,7 +60,7 @@ const HomePage = () => {
       <Box borderWidth="1px" borderRadius="lg" height="100%" mb="30px">
         <Flex flexDirection="row">
           <Box width="70%" height="100%" p="2rem">
-            <Text fontSize="xl">Today's trends</Text>
+            <Text fontSize="xl">Today&apos;s trends</Text>
             <Text fontSize="xs" color="gray.500">
               as of 25 May 2019, 09:41 PM
             </Text>
@@ -222,35 +222,31 @@ const HomePage = () => {
               <AddIcon w="10px" h="10px" />
             </Box>
           </Box>
-          <RadioGroup defaultValue="2">
-            <Stack spacing={5} direction="Column">
-              {taskRadioData.map((item, i) => (
-                <Box
-                  key={item.value}
-                  p="0.5rem 2rem"
-                  display="flex"
-                  justifyContent="space-between"
-                  alignItems="center"
-                  borderBottom={taskRadioData.length === i + 1 ? null : "1px"}
-                  borderColor={
-                    taskRadioData.length === i + 1 ? null : "gray.300"
-                  }
+          <Stack direction="column">
+            {taskData.map((item, i) => (
+              <Box
+                key={item.value}
+                p="0.5rem 2rem"
+                display="flex"
+                justifyContent="space-between"
+                alignItems="center"
+                borderBottom={taskData.length === i + 1 ? null : "1px"}
+                borderColor={taskData.length === i + 1 ? null : "gray.300"}
+              >
+                <Text colorScheme="blue" value={item.value} size="sm">
+                  {item.label}
+                </Text>
+                <Badge
+                  colorScheme={item.badgeStyle}
+                  variant="solid"
+                  borderRadius="md"
+                  p="5px 12px"
                 >
-                  <Radio colorScheme="blue" value={item.value} size="sm">
-                    {item.label}
-                  </Radio>
-                  <Badge
-                    colorScheme={item.badgeStyle}
-                    variant="solid"
-                    borderRadius="md"
-                    p="5px 12px"
-                  >
-                    {item.badgeLabel}
-                  </Badge>
-                </Box>
-              ))}
-            </Stack>
-          </RadioGroup>
+                  {item.badgeLabel}
+                </Badge>
+              </Box>
+            ))}
+          </Stack>
         </Box>
       </HStack>
     </Layout>
@@ -271,7 +267,7 @@ const unresolveTicketData = [
   { label: "Awaiting Developer Fix", value: 914 },
   { label: "Pending", value: 281 },
 ];
-const taskRadioData = [
+const taskData = [
   {
     label: "Finish ticket update",
     value: "1",
