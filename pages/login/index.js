@@ -1,20 +1,26 @@
 import {
+  Center,
   Text,
   Box,
   Image,
   FormControl,
   FormLabel,
   Input,
-  Link,
   Button,
 } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 
 const LoginPage = () => {
-  const BgContainer = styled.div`
+  const BgContainer = styled(Center)`
     width: 100%;
     height: 100vh;
-    background-color: #363740;
+    // background-color: #093545;
+    background: linear-gradient(
+      180deg,
+      #0575e6 0%,
+      #02298a 84.79%,
+      #021b79 100%
+    );
     padding: 2rem 0;
   `;
 
@@ -36,10 +42,10 @@ const LoginPage = () => {
       <Box
         m="auto"
         borderRadius={8}
-        width="380px"
+        width="350px"
         bg="white"
         display="flex"
-        p="2.5rem 2rem"
+        p="2rem 1.5rem"
         color="gray"
         flexDirection="column"
         alignItems="center"
@@ -50,37 +56,34 @@ const LoginPage = () => {
           boxSize="48px"
           marginBottom="1rem"
         />
-        <Text as="h2" fontSize="xl">
-          Dashboard Kit
+        <Text as="h1" fontSize="3xl">
+          Perpus.io
         </Text>
-        <Text as="h1" fontSize="2xl" mt="30px" color="black">
-          Log In to Dashboard Kit
-        </Text>
-        <Text as="h4" fontSize="sm" mt="12px" mb="32px">
-          Enter your email and password below
+        <Text as="h2" fontSize="lg" mt="1rem" mb="32px" color="gray.500">
+          Log In to Dashboard
         </Text>
         <FormControl id="email" mb="24px">
-          <FormLabel fontSize="xs">Email</FormLabel>
+          <FormLabel fontSize="sm">Username</FormLabel>
           <Input
-            type="email"
-            placeholder="Email address"
+            borderRadius={5}
+            type="text"
+            placeholder="Username..."
             fontSize="sm"
-            size="sm"
+            size="md"
           />
         </FormControl>
         <FormControl id="password" mb="24px">
-          <FormLabel fontSize="xs">Password</FormLabel>
-          <Input type="password" placeholder="Password" size="sm" />
+          <FormLabel fontSize="sm">Password</FormLabel>
+          <Input
+            borderRadius={5}
+            type="password"
+            placeholder="Password..."
+            size="md"
+          />
         </FormControl>
         <Button color="white" bg="blue.400" type="submit" width="100%">
           Login
         </Button>
-        <Text as="p" fontSize="sm" mt="32px">
-          Don’t have an account?{" "}
-          <Link color="blue.500" href="#">
-            Sign up
-          </Link>
-        </Text>
       </Box>
     </BgContainer>
     /* <div className="index_main_container">
