@@ -14,7 +14,7 @@ const Layout = ({ title, children }) => {
   `;
   const LayoutKanan = styled.div`
     padding: 2rem 1rem;
-    margin-left: 230px;
+    margin-left: 250px;
   `;
 
   return (

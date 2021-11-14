@@ -9,17 +9,11 @@ const Header = ({ title }) => {
     margin: 0 2rem;
   `;
   return (
-    <Flex justifyContent="space-between" marginBottom="54px">
+    <Flex justifyContent="space-between" mb="1rem">
       <Text as="h2" fontSize="2xl" fontWeight="bold">
         {title}
       </Text>
       <Flex alignItems="center">
-        <Image
-          src="/icons/search.svg"
-          alt="logo"
-          boxSize="16px"
-          marginRight="24px"
-        />
         <Image src="/icons/notification.svg" alt="logo" boxSize="16px" />
         <Separator />
         <Text as="p" fontSize="sm">

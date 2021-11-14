@@ -21,7 +21,7 @@ const HomePage = () => {
   const boxHeader = css`
     width: 100%;
     text-align: center;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem;
     border-width: 1px;
     border-radius: 8px;
     cursor: pointer;
@@ -29,7 +29,7 @@ const HomePage = () => {
 
   return (
     <Layout title="Overview">
-      <HStack spacing={8} marginBottom="30px">
+      <HStack spacing={8} mb="30px" align="start">
         {boxHeaderData.map((item, idx) => (
           <Box
             key={idx}
@@ -256,9 +256,9 @@ const HomePage = () => {
 export default HomePage;
 
 const boxHeaderData = [
-  { label: "Unresolve", value: 60 },
-  { label: "Overdue", value: 16 },
-  { label: "Open", value: 43 },
+  { label: "Total Users", value: 60 },
+  { label: "Total Books Borrowed", value: 16 },
+  { label: "Overdue Books", value: 43 },
   { label: "On hold", value: 64 },
 ];
 const unresolveTicketData = [
