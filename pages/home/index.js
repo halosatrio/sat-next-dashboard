@@ -1,10 +1,6 @@
 import {
-  RadioGroup,
   Stack,
-  Radio,
-  VStack,
   Badge,
-  Image,
   HStack,
   Text,
   Flex,
@@ -14,8 +10,71 @@ import {
 } from "@chakra-ui/react";
 import { AddIcon } from "@chakra-ui/icons";
 import { css } from "@emotion/react";
+import { add, format, differenceInCalendarDays, isFuture } from "date-fns";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+  CartesianGrid,
+} from "recharts";
+// import DataUtils from "./DataUtils";
+import CustomTooltip from "components/CustomTooltip";
 
 import Layout from "components/Layout/index";
+import { data, startDate, endDate } from "../../data/home.js";
+
+const dateFormatter = (date) => {
+  return format(new Date(date), "dd/MMM");
+};
+
+/**
+ * get the dates between `startDate` and `endSate` with equal granularity
+ */
+const getTicks = (startDate, endDate, num) => {
+  const diffDays = differenceInCalendarDays(endDate, startDate);
+
+  let current = startDate,
+    velocity = Math.round(diffDays / (num - 1));
+
+  const ticks = [startDate.getTime()];
+
+  for (let i = 1; i < num - 1; i++) {
+    ticks.push(add(current, { days: i * velocity }).getTime());
+  }
+
+  ticks.push(endDate.getTime());
+  return ticks;
+};
+
+/**
+ * Add data of the date in ticks,
+ * if there is no data in that date in `data`.
+ *
+ * @param Array<number> _ticks
+ * @param {*} data
+ */
+const fillTicksData = (_ticks, data) => {
+  const ticks = [..._ticks];
+  const filled = [];
+  let currentTick = ticks.shift();
+  let lastData = null;
+  for (const it of data) {
+    if (ticks.length && it.date > currentTick && lastData) {
+      filled.push({ ...lastData, ...{ date: currentTick } });
+      currentTick = ticks.shift();
+    } else if (ticks.length && it.date === currentTick) {
+      currentTick = ticks.shift();
+    }
+
+    filled.push(it);
+    lastData = it;
+  }
+
+  return filled;
+};
 
 const HomePage = () => {
   const boxHeader = css`
@@ -27,13 +86,18 @@ const HomePage = () => {
     cursor: pointer;
   `;
 
+  // Charts thingz
+  const domain = [(dataMin) => dataMin, () => endDate.getTime()];
+  const ticks = getTicks(startDate, endDate, 5);
+  const filledData = fillTicksData(ticks, data);
+
   return (
     <Layout title="Overview">
       <HStack spacing={8} mb="30px" align="start">
         {boxHeaderData.map((item, idx) => (
           <Box
             key={idx}
-            _hover={{ borderColor: "blue.500" }}
+            _hover={{ borderColor: "red.600" }}
             role="group"
             css={boxHeader}
           >
@@ -41,7 +105,7 @@ const HomePage = () => {
               as="h2"
               fontSize="lg"
               color="gray.500"
-              _groupHover={{ color: "blue.500" }}
+              _groupHover={{ color: "red.600" }}
             >
               {item.label}
             </Text>
@@ -50,7 +114,7 @@ const HomePage = () => {
               fontSize="4xl"
               mt="12px"
               fontWeight="bold"
-              _groupHover={{ color: "blue.500" }}
+              color="red.600"
             >
               {item.value}
             </Text>
@@ -58,197 +122,55 @@ const HomePage = () => {
         ))}
       </HStack>
       <Box borderWidth="1px" borderRadius="lg" height="100%" mb="30px">
-        <Flex flexDirection="row">
+        <div>
+          <ResponsiveContainer width="90%" height={300}>
+            <LineChart
+              data={filledData}
+              margin={{
+                top: 20,
+                right: 0,
+                bottom: 20,
+                left: 0,
+              }}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis
+                dataKey="date"
+                hasTick
+                scale="time"
+                tickFormatter={dateFormatter}
+                type="number"
+                domain={domain}
+                ticks={ticks}
+              />
+              <YAxis tickCount={7} hasTick />
+              <Tooltip content={<CustomTooltip />} />
+              <Line type="monotone" dataKey="val" stroke="#ff7300" />
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
+        {/* <Flex flexDirection="row">
           <Box width="70%" height="100%" p="2rem">
             <Text fontSize="xl">Today&apos;s trends</Text>
             <Text fontSize="xs" color="gray.500">
               as of 25 May 2019, 09:41 PM
             </Text>
-            <Image src="/graph.png" alt="graph" />
+            <LineChart
+              width={730}
+              height={250}
+              data={data2}
+              margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="date" />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+              <Line type="monotone" dataKey="value" stroke="#8884d8" />
+            </LineChart>
           </Box>
-          <VStack
-            height="100%"
-            spacing={0}
-            width="30%"
-            textAlign="center"
-            borderLeft="1px"
-            borderColor="gray.300"
-          >
-            <Box
-              borderBottom="1px"
-              borderColor="gray.300"
-              width="100%"
-              p="1rem 0"
-              minH="100%"
-            >
-              <Text fontSize="md" color="gray.500">
-                Resolved
-              </Text>
-              <Text fontSize="2xl" mt="6px" fontWeight="bold">
-                449
-              </Text>
-            </Box>
-            <Box
-              borderBottom="1px"
-              borderColor="gray.300"
-              width="100%"
-              p="1rem 0"
-              minH="100%"
-            >
-              <Text fontSize="md" color="gray.500">
-                Received
-              </Text>
-              <Text fontSize="2xl" mt="6px" fontWeight="bold">
-                426
-              </Text>
-            </Box>
-            <Box
-              borderBottom="1px"
-              borderColor="gray.300"
-              width="100%"
-              p="1rem 0"
-              minH="100%"
-            >
-              <Text fontSize="md" color="gray.500">
-                Average first response time
-              </Text>
-              <Text fontSize="2xl" mt="6px" fontWeight="bold">
-                33m
-              </Text>
-            </Box>
-            <Box
-              borderBottom="1px"
-              borderColor="gray.300"
-              width="100%"
-              p="1rem 0"
-              minH="100%"
-            >
-              <Text fontSize="md" color="gray.500">
-                Average response time
-              </Text>
-              <Text fontSize="2xl" mt="6px" fontWeight="bold">
-                3h 8m
-              </Text>
-            </Box>
-            <Box width="100%" p="1rem 0" minH="100%">
-              <Text fontSize="md" color="gray.500">
-                Resolution within SLA
-              </Text>
-              <Text fontSize="2xl" mt="6px" fontWeight="bold">
-                94%
-              </Text>
-            </Box>
-          </VStack>
-        </Flex>
+        </Flex> */}
       </Box>
-      <HStack spacing={8} alignItems="flex-start">
-        <Box borderRadius="lg" width="100%" borderWidth="1px">
-          <Flex
-            justifyContent="space-between"
-            p="1.5rem 2rem"
-            alignItems="center"
-          >
-            <div>
-              <Text fontSize="xl" fontWeight="bold">
-                Unresolve tickets
-              </Text>
-              <Text fontSize="xs" color="gray.500">
-                Group: Support
-              </Text>
-            </div>
-            <Text fontSize="sm" fontWeight="light" color="blue.500">
-              View details
-            </Text>
-          </Flex>
-          {unresolveTicketData.map((item, i) => (
-            <Box
-              key={item.value}
-              p="1rem 2rem"
-              height="50px"
-              textAlign="center"
-              borderBottom={unresolveTicketData.length === i + 1 ? null : "1px"}
-              borderColor={
-                unresolveTicketData.length === i + 1 ? null : "gray.300"
-              }
-              display="flex"
-              justifyContent="space-between"
-            >
-              <Text fontSize="xs">{item.label}</Text>
-              <Text fontSize="xs" color="gray.400">
-                {item.value}
-              </Text>
-            </Box>
-          ))}
-        </Box>
-        <Box borderRadius="lg" width="100%" borderWidth="1px">
-          <Flex
-            justifyContent="space-between"
-            p="1.5rem 2rem"
-            alignItems="center"
-          >
-            <div>
-              <Text fontSize="xl" fontWeight="bold">
-                Tasks
-              </Text>
-              <Text fontSize="xs" color="gray.500">
-                Today
-              </Text>
-            </div>
-            <Text fontSize="sm" fontWeight="light" color="blue.500">
-              View all
-            </Text>
-          </Flex>
-          <Box
-            p="1rem 2rem"
-            height="50px"
-            textAlign="center"
-            borderBottom="1px"
-            borderColor="gray.300"
-            display="flex"
-            justifyContent="space-between"
-          >
-            <Text fontSize="xs" color="gray.400">
-              Create new task
-            </Text>
-            <Box
-              bg="gray.300"
-              borderRadius="lg"
-              width="24px"
-              height="24px"
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-            >
-              <AddIcon w="10px" h="10px" />
-            </Box>
-          </Box>
-          <Stack direction="column">
-            {taskData.map((item, i) => (
-              <Box
-                key={item.value}
-                p="0.5rem 2rem"
-                display="flex"
-                justifyContent="space-between"
-                alignItems="center"
-                borderBottom={taskData.length === i + 1 ? null : "1px"}
-                borderColor={taskData.length === i + 1 ? null : "gray.300"}
-              >
-                <Text colorScheme="blue" value={item.value} size="sm">
-                  {item.label}
-                </Text>
-                <Badge
-                  colorScheme={item.badgeStyle}
-                  variant="solid"
-                  borderRadius="md"
-                  p="5px 12px"
-                >
-                  {item.badgeLabel}
-                </Badge>
-              </Box>
-            ))}
-          </Stack>
-        </Box>
-      </HStack>
     </Layout>
   );
 };
@@ -260,30 +182,4 @@ const boxHeaderData = [
   { label: "Total Books Borrowed", value: 16 },
   { label: "Overdue Books", value: 43 },
   { label: "On hold", value: 64 },
-];
-const unresolveTicketData = [
-  { label: "Waiting on Feature Request", value: 4238 },
-  { label: "Awaiting Customer Response", value: 1005 },
-  { label: "Awaiting Developer Fix", value: 914 },
-  { label: "Pending", value: 281 },
-];
-const taskData = [
-  {
-    label: "Finish ticket update",
-    value: "1",
-    badgeLabel: "urgent",
-    badgeStyle: "yellow",
-  },
-  {
-    label: "Create new ticket example",
-    value: "2",
-    badgeLabel: "new",
-    badgeStyle: "green",
-  },
-  {
-    label: "Update ticket report",
-    value: "3",
-    badgeLabel: "urgent",
-    badgeStyle: "gray",
-  },
 ];

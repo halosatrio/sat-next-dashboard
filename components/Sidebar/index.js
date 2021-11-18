@@ -28,7 +28,7 @@ const Sidebar = () => {
     width: 100%;
     height: 100%;
     background-color: #363740;
-    padding: 1rem;
+    padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,19 +50,14 @@ const Sidebar = () => {
         <div>
           <Text
             as="h2"
-            fontSize="2xl"
-            color="gray.400"
-            mb="10px"
+            fontSize="3xl"
+            color="blue.400"
+            mb="2rem"
+            fontWeight="bold"
             textAlign="center"
           >
             Perpus.io
           </Text>
-          <Flex alignItems="center" px="2rem" justifyContent="space-between">
-            <Image src="/photo.png" boxSize="32px" alt="profile logo" />
-            <Text as="h3" fontSize="lg" color="gray.400" my="10px">
-              Admin 1
-            </Text>
-          </Flex>
           {sidebarMenu.map((item) => (
             <Link href={item.href} key={item.label}>
               <a>
@@ -73,7 +68,7 @@ const Sidebar = () => {
                   borderRadius={4}
                   alignItems="center"
                 >
-                  {item.label === "home" ? "Overview" : item.label}
+                  {item.label}
                 </NavLink>
               </a>
             </Link>
