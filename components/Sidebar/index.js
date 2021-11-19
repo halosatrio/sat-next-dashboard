@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { Text, Flex, Box, Button, Image } from "@chakra-ui/react";
+import { Text, Flex, Box, Square, Button, Image } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 import { css } from "@emotion/react";
 
@@ -28,7 +28,7 @@ const Sidebar = () => {
     width: 100%;
     height: 100%;
     background-color: #363740;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -74,9 +74,14 @@ const Sidebar = () => {
             </Link>
           ))}
         </div>
-        <Text textAlign="center" color="gray.200">
-          Logout
-        </Text>
+        <Flex alignItems="center" justifyContent="center">
+          <Square size="28px" bg="gray.300" borderRadius={8} mr="0.8rem">
+            <Image src="/icons/logout.svg" alt="logo" boxSize="18px" />
+          </Square>
+          <Text as="span" color="gray.200" fontSize="md">
+            Logout
+          </Text>
+        </Flex>
       </Sidebar>
     </SidebarContainer>
   );

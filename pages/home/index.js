@@ -8,7 +8,6 @@ import {
   Link,
   Button,
 } from "@chakra-ui/react";
-import { AddIcon } from "@chakra-ui/icons";
 import { css } from "@emotion/react";
 import { add, format, differenceInCalendarDays, isFuture } from "date-fns";
 import {
@@ -16,6 +15,7 @@ import {
   Line,
   XAxis,
   YAxis,
+  Label,
   Tooltip,
   ResponsiveContainer,
   CartesianGrid,
@@ -121,14 +121,20 @@ const HomePage = () => {
           </Box>
         ))}
       </HStack>
-      <Box borderWidth="1px" borderRadius="lg" height="100%" mb="30px">
+      <Box borderWidth="1px" borderRadius="lg" height="100%" p="1rem">
+        <Text fontSize="2xl" ml="3rem">
+          Today&apos;s trends
+        </Text>
+        <Text fontSize="xs" color="gray.500" ml="3rem">
+          as of 31 October 2021, 08:00 AM
+        </Text>
         <div>
-          <ResponsiveContainer width="90%" height={300}>
+          <ResponsiveContainer width="100%" height={300}>
             <LineChart
               data={filledData}
               margin={{
-                top: 20,
-                right: 0,
+                top: 30,
+                right: 30,
                 bottom: 20,
                 left: 0,
               }}
@@ -143,9 +149,16 @@ const HomePage = () => {
                 domain={domain}
                 ticks={ticks}
               />
-              <YAxis tickCount={7} hasTick />
+              <YAxis tickCount={5} domain={[0, "dataMax + 5"]} width={100}>
+                <Label
+                  value="books borrowed"
+                  angle={-90}
+                  position="center"
+                  id="ylabel"
+                />
+              </YAxis>
               <Tooltip content={<CustomTooltip />} />
-              <Line type="monotone" dataKey="val" stroke="#ff7300" />
+              <Line type="monotone" dataKey="val" stroke="#9B2C2C" />
             </LineChart>
           </ResponsiveContainer>
         </div>

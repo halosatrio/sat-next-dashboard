@@ -1,0 +1,1220 @@
+[
+  {
+    "id": 1,
+    "user": "wrodwell0",
+    "date": "2021-01-02",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 2,
+    "user": "wfairburn1",
+    "date": "2021-01-03",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 3,
+    "user": "cocullen2",
+    "date": "2021-01-04",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 4,
+    "user": "lpley3",
+    "date": "2021-01-05",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 5,
+    "user": "omartusov4",
+    "date": "2021-01-06",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 6,
+    "user": "fcorington5",
+    "date": "2021-01-07",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 7,
+    "user": "dfickling6",
+    "date": "2021-01-08",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 8,
+    "user": "kkennicott7",
+    "date": "2021-01-09",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 9,
+    "user": "tbrenton8",
+    "date": "2021-01-10",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 10,
+    "user": "rogleasane9",
+    "date": "2021-01-11",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 11,
+    "user": "bhanna",
+    "date": "2021-01-12",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 12,
+    "user": "sklicherb",
+    "date": "2021-01-13",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 13,
+    "user": "tiowarchc",
+    "date": "2021-01-14",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 14,
+    "user": "avickressd",
+    "date": "2021-01-15",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 15,
+    "user": "rthyse",
+    "date": "2021-01-16",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 16,
+    "user": "ccreeganf",
+    "date": "2021-01-17",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 17,
+    "user": "hmccardg",
+    "date": "2021-01-18",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 18,
+    "user": "kmacmenamieh",
+    "date": "2021-01-19",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 19,
+    "user": "dcomforti",
+    "date": "2021-01-20",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 20,
+    "user": "sbaggallayj",
+    "date": "2021-01-21",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 21,
+    "user": "lmacclintonk",
+    "date": "2021-01-22",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 22,
+    "user": "pstentonl",
+    "date": "2021-01-23",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 23,
+    "user": "tcaserim",
+    "date": "2021-01-24",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 24,
+    "user": "eseinen",
+    "date": "2021-01-25",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 25,
+    "user": "ddalgardnoo",
+    "date": "2021-01-26",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 26,
+    "user": "bluckwellp",
+    "date": "2021-01-27",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 27,
+    "user": "atabordq",
+    "date": "2021-01-28",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 28,
+    "user": "mdawidowiczr",
+    "date": "2021-01-29",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 29,
+    "user": "rosants",
+    "date": "2021-01-30",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 30,
+    "user": "lbodiamt",
+    "date": "2021-01-31",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 31,
+    "user": "ozisnerosu",
+    "date": "2021-02-01",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 32,
+    "user": "adavenellv",
+    "date": "2021-02-02",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 33,
+    "user": "djennensw",
+    "date": "2021-02-03",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 34,
+    "user": "arichingsx",
+    "date": "2021-02-04",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 35,
+    "user": "bforgany",
+    "date": "2021-02-05",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 36,
+    "user": "ldecristoforoz",
+    "date": "2021-02-06",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 37,
+    "user": "mjoslow10",
+    "date": "2021-02-07",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 38,
+    "user": "kmcaw11",
+    "date": "2021-02-08",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 39,
+    "user": "elednor12",
+    "date": "2021-02-09",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 40,
+    "user": "lsaphin13",
+    "date": "2021-02-10",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 41,
+    "user": "mcrackel14",
+    "date": "2021-02-11",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 42,
+    "user": "sstocking15",
+    "date": "2021-02-12",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 43,
+    "user": "msimanenko16",
+    "date": "2021-02-13",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 44,
+    "user": "rtilney17",
+    "date": "2021-02-14",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 45,
+    "user": "pcramer18",
+    "date": "2021-02-15",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 46,
+    "user": "sspurdens19",
+    "date": "2021-02-16",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 47,
+    "user": "dcrickmer1a",
+    "date": "2021-02-17",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 48,
+    "user": "mcarlyle1b",
+    "date": "2021-02-18",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 49,
+    "user": "hhutsby1c",
+    "date": "2021-02-19",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 50,
+    "user": "ccherrett1d",
+    "date": "2021-02-20",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 51,
+    "user": "xclaibourn1e",
+    "date": "2021-02-21",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 52,
+    "user": "jcumming1f",
+    "date": "2021-02-22",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 53,
+    "user": "wsenechault1g",
+    "date": "2021-02-23",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 54,
+    "user": "jstiffkins1h",
+    "date": "2021-02-24",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 55,
+    "user": "cpecht1i",
+    "date": "2021-02-25",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 56,
+    "user": "dshreve1j",
+    "date": "2021-02-26",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 57,
+    "user": "cdownes1k",
+    "date": "2021-02-27",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 58,
+    "user": "gbrims1l",
+    "date": "2021-02-28",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 59,
+    "user": "mwellfare1m",
+    "date": "2021-03-01",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 60,
+    "user": "bgrindley1n",
+    "date": "2021-03-02",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 61,
+    "user": "rsacaze1o",
+    "date": "2021-03-03",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 62,
+    "user": "jeykelhof1p",
+    "date": "2021-03-04",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 63,
+    "user": "ewinridge1q",
+    "date": "2021-03-05",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 64,
+    "user": "halvar1r",
+    "date": "2021-03-06",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 65,
+    "user": "gbleything1s",
+    "date": "2021-03-07",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 66,
+    "user": "atidswell1t",
+    "date": "2021-03-08",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 67,
+    "user": "hjuniper1u",
+    "date": "2021-03-09",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 68,
+    "user": "wlehoux1v",
+    "date": "2021-03-10",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 69,
+    "user": "cdecoursey1w",
+    "date": "2021-03-11",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 70,
+    "user": "aschimke1x",
+    "date": "2021-03-12",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 71,
+    "user": "mbasil1y",
+    "date": "2021-03-13",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 72,
+    "user": "cmerriment1z",
+    "date": "2021-03-14",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 73,
+    "user": "fwilgar20",
+    "date": "2021-03-15",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 74,
+    "user": "wchape21",
+    "date": "2021-03-16",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 75,
+    "user": "drubinsztein22",
+    "date": "2021-03-17",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 76,
+    "user": "dvella23",
+    "date": "2021-03-18",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 77,
+    "user": "dwainman24",
+    "date": "2021-03-19",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 78,
+    "user": "pcarnock25",
+    "date": "2021-03-20",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 79,
+    "user": "nlinsay26",
+    "date": "2021-03-21",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 80,
+    "user": "bedridge27",
+    "date": "2021-03-22",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 81,
+    "user": "lnasi28",
+    "date": "2021-03-23",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 82,
+    "user": "cdabrowski29",
+    "date": "2021-03-24",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 83,
+    "user": "khowen2a",
+    "date": "2021-03-25",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 84,
+    "user": "bletertre2b",
+    "date": "2021-03-26",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 85,
+    "user": "bclague2c",
+    "date": "2021-03-27",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 86,
+    "user": "adellenbach2d",
+    "date": "2021-03-28",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 87,
+    "user": "kwimpeney2e",
+    "date": "2021-03-29",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 88,
+    "user": "dmcinnerny2f",
+    "date": "2021-03-30",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 89,
+    "user": "gdablin2g",
+    "date": "2021-03-31",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 90,
+    "user": "scicerone2h",
+    "date": "2021-04-01",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 91,
+    "user": "adecaroli2i",
+    "date": "2021-04-02",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 92,
+    "user": "grostern2j",
+    "date": "2021-04-03",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 93,
+    "user": "hing2k",
+    "date": "2021-04-04",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 94,
+    "user": "lparysiak2l",
+    "date": "2021-04-05",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 95,
+    "user": "escholfield2m",
+    "date": "2021-04-06",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 96,
+    "user": "tbubb2n",
+    "date": "2021-04-07",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 97,
+    "user": "ldelacroix2o",
+    "date": "2021-04-08",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 98,
+    "user": "kpunt2p",
+    "date": "2021-04-09",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 99,
+    "user": "mgoldsack2q",
+    "date": "2021-04-10",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 100,
+    "user": "rmart2r",
+    "date": "2021-04-11",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 101,
+    "user": "tpitone2s",
+    "date": "2021-04-12",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 102,
+    "user": "ddarlison2t",
+    "date": "2021-04-13",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 103,
+    "user": "hkimbury2u",
+    "date": "2021-04-14",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 104,
+    "user": "bcalafate2v",
+    "date": "2021-04-15",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 105,
+    "user": "mstrood2w",
+    "date": "2021-04-16",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 106,
+    "user": "apresho2x",
+    "date": "2021-04-17",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 107,
+    "user": "ddecarlo2y",
+    "date": "2021-04-18",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 108,
+    "user": "ncleyne2z",
+    "date": "2021-04-19",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 109,
+    "user": "lcurwen30",
+    "date": "2021-04-20",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 110,
+    "user": "pnorcutt31",
+    "date": "2021-04-21",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 111,
+    "user": "agrigoryov32",
+    "date": "2021-04-22",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 112,
+    "user": "jfurphy33",
+    "date": "2021-04-23",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 113,
+    "user": "vpauer34",
+    "date": "2021-04-24",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 114,
+    "user": "kwynes35",
+    "date": "2021-04-25",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 115,
+    "user": "xplatt36",
+    "date": "2021-04-26",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 116,
+    "user": "bphilippart37",
+    "date": "2021-04-27",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 117,
+    "user": "pbraams38",
+    "date": "2021-04-28",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 118,
+    "user": "abackson39",
+    "date": "2021-04-29",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 119,
+    "user": "kcecere3a",
+    "date": "2021-04-30",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 120,
+    "user": "vmooney3b",
+    "date": "2021-05-01",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 121,
+    "user": "jcork3c",
+    "date": "2021-05-02",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 122,
+    "user": "dgage3d",
+    "date": "2021-05-03",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 123,
+    "user": "cbulford3e",
+    "date": "2021-05-04",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 124,
+    "user": "ksneden3f",
+    "date": "2021-05-05",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 125,
+    "user": "iswinley3g",
+    "date": "2021-05-06",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 126,
+    "user": "jsoldan3h",
+    "date": "2021-05-07",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 127,
+    "user": "jturgoose3i",
+    "date": "2021-05-08",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 128,
+    "user": "lkean3j",
+    "date": "2021-05-09",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 129,
+    "user": "esaturley3k",
+    "date": "2021-05-10",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 130,
+    "user": "sblaiklock3l",
+    "date": "2021-05-11",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 131,
+    "user": "pkirkbride3m",
+    "date": "2021-05-12",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 132,
+    "user": "bbourdice3n",
+    "date": "2021-05-13",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 133,
+    "user": "rdegowe3o",
+    "date": "2021-05-14",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 134,
+    "user": "vbending3p",
+    "date": "2021-05-15",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 135,
+    "user": "msnoddy3q",
+    "date": "2021-05-16",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 136,
+    "user": "ocholwell3r",
+    "date": "2021-05-17",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 137,
+    "user": "desseby3s",
+    "date": "2021-05-18",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 138,
+    "user": "rdowle3t",
+    "date": "2021-05-19",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 139,
+    "user": "ipeto3u",
+    "date": "2021-05-20",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 140,
+    "user": "ihebbs3v",
+    "date": "2021-05-21",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 141,
+    "user": "wmcalroy3w",
+    "date": "2021-05-22",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 142,
+    "user": "pfishe3x",
+    "date": "2021-05-23",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 143,
+    "user": "wludwell3y",
+    "date": "2021-05-24",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 144,
+    "user": "sgrigorini3z",
+    "date": "2021-05-25",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 145,
+    "user": "tbenam40",
+    "date": "2021-05-26",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 146,
+    "user": "rchatel41",
+    "date": "2021-05-27",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 147,
+    "user": "pmussard42",
+    "date": "2021-05-28",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 148,
+    "user": "mfigg43",
+    "date": "2021-05-29",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 149,
+    "user": "epiercy44",
+    "date": "2021-05-30",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 150,
+    "user": "ypickance45",
+    "date": "2021-05-31",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 151,
+    "user": "jbuckthorpe46",
+    "date": "2021-06-01",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 152,
+    "user": "eheister47",
+    "date": "2021-06-02",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 153,
+    "user": "cnial48",
+    "date": "2021-06-03",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 154,
+    "user": "sendersby49",
+    "date": "2021-06-04",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 155,
+    "user": "apawelek4a",
+    "date": "2021-06-05",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 156,
+    "user": "mastell4b",
+    "date": "2021-06-06",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 157,
+    "user": "tscone4c",
+    "date": "2021-06-07",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 158,
+    "user": "cmilkin4d",
+    "date": "2021-06-08",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 159,
+    "user": "nberthon4e",
+    "date": "2021-06-09",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 160,
+    "user": "ddary4f",
+    "date": "2021-06-10",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 161,
+    "user": "gfawssett4g",
+    "date": "2021-06-11",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 162,
+    "user": "nbasnett4h",
+    "date": "2021-06-12",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 163,
+    "user": "pgadd4i",
+    "date": "2021-06-13",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 164,
+    "user": "bmccahill4j",
+    "date": "2021-06-14",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 165,
+    "user": "smcalester4k",
+    "date": "2021-06-15",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 166,
+    "user": "efintoph4l",
+    "date": "2021-06-16",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 167,
+    "user": "fgilluley4m",
+    "date": "2021-06-17",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 168,
+    "user": "ctabourel4n",
+    "date": "2021-06-18",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 169,
+    "user": "lnuscha4o",
+    "date": "2021-06-19",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 170,
+    "user": "dgilliard4p",
+    "date": "2021-06-20",
+    "activity": "return",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 171,
+    "user": "asibbons4q",
+    "date": "2021-06-21",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 172,
+    "user": "mlutz4r",
+    "date": "2021-06-22",
+    "activity": "return",
+    "location": "Spasso Cafe"
+  },
+  {
+    "id": 173,
+    "user": "cmabbutt4s",
+    "date": "2021-06-23",
+    "activity": "borrow",
+    "location": "Blanco Coffee"
+  },
+  {
+    "id": 174,
+    "user": "cabbots4t",
+    "date": "2021-06-24",
+    "activity": "borrow",
+    "location": "Spasso Cafe"
+  }
+]
