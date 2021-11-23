@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "judul": "Himantopus himantopus",
+    "penulis": "Verina Durber",
+    "penerbit": "Shuffletag",
+    "tahun_terbit": 2006,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 2,
+    "judul": "Phylurus milli",
+    "penulis": "Charmian Hinkes",
+    "penerbit": "Flipopia",
+    "tahun_terbit": 1993,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 3,
+    "judul": "Tauraco porphyrelophus",
+    "penulis": "Gilburt Donohue",
+    "penerbit": "Zoomzone",
+    "tahun_terbit": 1997,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 4,
+    "judul": "Geochelone elegans",
+    "penulis": "Fletcher Puttergill",
+    "penerbit": "JumpXS",
+    "tahun_terbit": 2012,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 5,
+    "judul": "Tachyglossus aculeatus",
+    "penulis": "Rozalin Archibould",
+    "penerbit": "Edgewire",
+    "tahun_terbit": 1995,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 6,
+    "judul": "Ciconia ciconia",
+    "penulis": "Sibeal Coath",
+    "penerbit": "Topiczoom",
+    "tahun_terbit": 1992,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 7,
+    "judul": "Casmerodius albus",
+    "penulis": "Ellwood Montez",
+    "penerbit": "Topiclounge",
+    "tahun_terbit": 1993,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 8,
+    "judul": "Ara macao",
+    "penulis": "Annabell Crozier",
+    "penerbit": "Ooba",
+    "tahun_terbit": 2004,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 9,
+    "judul": "Casmerodius albus",
+    "penulis": "Kimberli Sebastian",
+    "penerbit": "Centizu",
+    "tahun_terbit": 2003,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 10,
+    "judul": "Vanessa indica",
+    "penulis": "Mordy Bushnell",
+    "penerbit": "Mynte",
+    "tahun_terbit": 1990,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 11,
+    "judul": "Equus hemionus",
+    "penulis": "Alwyn Bjorkan",
+    "penerbit": "Leenti",
+    "tahun_terbit": 1995,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 12,
+    "judul": "Lasiorhinus latifrons",
+    "penulis": "Parrnell Bartos",
+    "penerbit": "Mymm",
+    "tahun_terbit": 2011,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 13,
+    "judul": "Notechis semmiannulatus",
+    "penulis": "Teddi Lafflina",
+    "penerbit": "Skimia",
+    "tahun_terbit": 2003,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 14,
+    "judul": "Spermophilus lateralis",
+    "penulis": "Dahlia Letessier",
+    "penerbit": "Realbridge",
+    "tahun_terbit": 1998,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 15,
+    "judul": "Agkistrodon piscivorus",
+    "penulis": "Lanita Orth",
+    "penerbit": "Yamia",
+    "tahun_terbit": 2012,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 16,
+    "judul": "Cacatua tenuirostris",
+    "penulis": "Kelly Spykings",
+    "penerbit": "Quamba",
+    "tahun_terbit": 2011,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 17,
+    "judul": "Tauraco porphyrelophus",
+    "penulis": "Anestassia Ogle",
+    "penerbit": "Realbuzz",
+    "tahun_terbit": 2001,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 18,
+    "judul": "Mycteria ibis",
+    "penulis": "Philomena Dorrian",
+    "penerbit": "Wikizz",
+    "tahun_terbit": 2001,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 19,
+    "judul": "Plegadis falcinellus",
+    "penulis": "Jillane Waterhowse",
+    "penerbit": "Vinte",
+    "tahun_terbit": 1994,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 20,
+    "judul": "Epicrates cenchria maurus",
+    "penulis": "Octavia Rathke",
+    "penerbit": "Gabcube",
+    "tahun_terbit": 1984,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 21,
+    "judul": "Anthropoides paradisea",
+    "penulis": "Isadore Adelsberg",
+    "penerbit": "Feedfire",
+    "tahun_terbit": 2001,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 22,
+    "judul": "Nyctereutes procyonoides",
+    "penulis": "Xenos Rosenkranc",
+    "penerbit": "Skyba",
+    "tahun_terbit": 1995,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 23,
+    "judul": "Francolinus coqui",
+    "penulis": "Kathryne Chavrin",
+    "penerbit": "InnoZ",
+    "tahun_terbit": 1965,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 24,
+    "judul": "Capreolus capreolus",
+    "penulis": "Kristina Skeemer",
+    "penerbit": "Zoombeat",
+    "tahun_terbit": 2002,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 25,
+    "judul": "Eolophus roseicapillus",
+    "penulis": "Marthena Tubble",
+    "penerbit": "Minyx",
+    "tahun_terbit": 1992,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 26,
+    "judul": "Connochaetus taurinus",
+    "penulis": "Clarance Davidovics",
+    "penerbit": "Shuffledrive",
+    "tahun_terbit": 1985,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 27,
+    "judul": "Sarcorhamphus papa",
+    "penulis": "Octavia Cantor",
+    "penerbit": "Npath",
+    "tahun_terbit": 2010,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 28,
+    "judul": "Lemur catta",
+    "penulis": "Dennie Perigeaux",
+    "penerbit": "Zoonder",
+    "tahun_terbit": 1993,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 29,
+    "judul": "Corvus albicollis",
+    "penulis": "Nikolia McCabe",
+    "penerbit": "Devshare",
+    "tahun_terbit": 2006,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 30,
+    "judul": "Phascogale calura",
+    "penulis": "Faydra Ather",
+    "penerbit": "Feedmix",
+    "tahun_terbit": 2007,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 31,
+    "judul": "Ramphastos tucanus",
+    "penulis": "Jan Brainsby",
+    "penerbit": "Zoonder",
+    "tahun_terbit": 2007,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 32,
+    "judul": "Bison bison",
+    "penulis": "Rosy Race",
+    "penerbit": "Voonte",
+    "tahun_terbit": 2004,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 33,
+    "judul": "Sarkidornis melanotos",
+    "penulis": "Kippar De Clairmont",
+    "penerbit": "Wordtune",
+    "tahun_terbit": 2009,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 34,
+    "judul": "Platalea leucordia",
+    "penulis": "Carr Oliffe",
+    "penerbit": "Jaxworks",
+    "tahun_terbit": 2009,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 35,
+    "judul": "Stercorarius longicausus",
+    "penulis": "Stephana Heisler",
+    "penerbit": "Cogilith",
+    "tahun_terbit": 2007,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 36,
+    "judul": "Junonia genoveua",
+    "penulis": "Constantino Villiers",
+    "penerbit": "Rhynyx",
+    "tahun_terbit": 1993,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 37,
+    "judul": "Anser anser",
+    "penulis": "Bat Souten",
+    "penerbit": "Flashpoint",
+    "tahun_terbit": 2002,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 38,
+    "judul": "Cordylus giganteus",
+    "penulis": "Evey Deeny",
+    "penerbit": "Skaboo",
+    "tahun_terbit": 1993,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 39,
+    "judul": "Cordylus giganteus",
+    "penulis": "Beverlee Hartburn",
+    "penerbit": "Rhynoodle",
+    "tahun_terbit": 2003,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 40,
+    "judul": "Marmota flaviventris",
+    "penulis": "Marthe Itzkovsky",
+    "penerbit": "Kimia",
+    "tahun_terbit": 2012,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 41,
+    "judul": "Haliaetus vocifer",
+    "penulis": "Daffie Thurlow",
+    "penerbit": "Feedfish",
+    "tahun_terbit": 2013,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 42,
+    "judul": "Tadorna tadorna",
+    "penulis": "Donavon Fante",
+    "penerbit": "Youfeed",
+    "tahun_terbit": 2007,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 43,
+    "judul": "Macropus rufogriseus",
+    "penulis": "Claiborne Berthon",
+    "penerbit": "Skyba",
+    "tahun_terbit": 2008,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 44,
+    "judul": "unavailable",
+    "penulis": "Eolande Vedekhov",
+    "penerbit": "Dablist",
+    "tahun_terbit": 1994,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 45,
+    "judul": "Boa caninus",
+    "penulis": "Nannie Philipsson",
+    "penerbit": "Zazio",
+    "tahun_terbit": 1979,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 46,
+    "judul": "unavailable",
+    "penulis": "Ludvig Glaves",
+    "penerbit": "Meejo",
+    "tahun_terbit": 1996,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 47,
+    "judul": "Ovis musimon",
+    "penulis": "Harold Gendrich",
+    "penerbit": "Cogilith",
+    "tahun_terbit": 2006,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 48,
+    "judul": "Felis caracal",
+    "penulis": "Lainey Veneur",
+    "penerbit": "Aibox",
+    "tahun_terbit": 2002,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 49,
+    "judul": "Ara ararauna",
+    "penulis": "Ed Melato",
+    "penerbit": "Fivebridge",
+    "tahun_terbit": 2011,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 50,
+    "judul": "Canis lupus lycaon",
+    "penulis": "Field Lygoe",
+    "penerbit": "Flipstorm",
+    "tahun_terbit": 1992,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 51,
+    "judul": "Crotalus adamanteus",
+    "penulis": "Agata Tinson",
+    "penerbit": "Skaboo",
+    "tahun_terbit": 1993,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 52,
+    "judul": "Gazella granti",
+    "penulis": "Sella Dodgson",
+    "penerbit": "Kazu",
+    "tahun_terbit": 2012,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 53,
+    "judul": "Columba livia",
+    "penulis": "Carney Yeldon",
+    "penerbit": "Aivee",
+    "tahun_terbit": 2002,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 54,
+    "judul": "Antechinus flavipes",
+    "penulis": "Tremaine Crighton",
+    "penerbit": "Gigazoom",
+    "tahun_terbit": 2009,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 55,
+    "judul": "Cynictis penicillata",
+    "penulis": "Nance Cochran",
+    "penerbit": "Mydeo",
+    "tahun_terbit": 1992,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 56,
+    "judul": "Platalea leucordia",
+    "penulis": "Alexio Hooks",
+    "penerbit": "Topicshots",
+    "tahun_terbit": 1992,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 57,
+    "judul": "Colobus guerza",
+    "penulis": "Kristine Booy",
+    "penerbit": "Babblestorm",
+    "tahun_terbit": 1996,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 58,
+    "judul": "Agelaius phoeniceus",
+    "penulis": "Sapphira Hyslop",
+    "penerbit": "Kwilith",
+    "tahun_terbit": 2011,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 59,
+    "judul": "Ursus americanus",
+    "penulis": "Mordy Zamora",
+    "penerbit": "Skajo",
+    "tahun_terbit": 2002,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 60,
+    "judul": "unavailable",
+    "penulis": "Anastasie Gahan",
+    "penerbit": "Thoughtstorm",
+    "tahun_terbit": 1981,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 61,
+    "judul": "Aegypius tracheliotus",
+    "penulis": "Kimbra Connachan",
+    "penerbit": "Geba",
+    "tahun_terbit": 2008,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 62,
+    "judul": "Ciconia episcopus",
+    "penulis": "Vic Killingback",
+    "penerbit": "Podcat",
+    "tahun_terbit": 2005,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 63,
+    "judul": "Thylogale stigmatica",
+    "penulis": "Silva Shatliffe",
+    "penerbit": "Babbleblab",
+    "tahun_terbit": 1999,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 64,
+    "judul": "Ursus americanus",
+    "penulis": "Jameson Ricardot",
+    "penerbit": "Thoughtstorm",
+    "tahun_terbit": 2008,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 65,
+    "judul": "unavailable",
+    "penulis": "Sterling Hallatt",
+    "penerbit": "Zoombeat",
+    "tahun_terbit": 2001,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 66,
+    "judul": "Lutra canadensis",
+    "penulis": "Guy Akeherst",
+    "penerbit": "Dabtype",
+    "tahun_terbit": 2004,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 67,
+    "judul": "Semnopithecus entellus",
+    "penulis": "Isidora Zute",
+    "penerbit": "Dynazzy",
+    "tahun_terbit": 1997,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 68,
+    "judul": "Herpestes javanicus",
+    "penulis": "Fabiano Alenikov",
+    "penerbit": "Skyble",
+    "tahun_terbit": 2009,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 69,
+    "judul": "Plegadis ridgwayi",
+    "penulis": "Cristionna Maylor",
+    "penerbit": "Twitterwire",
+    "tahun_terbit": 2009,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 70,
+    "judul": "Macropus robustus",
+    "penulis": "Bartolomeo Slyvester",
+    "penerbit": "Brightbean",
+    "tahun_terbit": 1996,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 71,
+    "judul": "Orcinus orca",
+    "penulis": "Worthington Boynes",
+    "penerbit": "Livefish",
+    "tahun_terbit": 1994,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 72,
+    "judul": "Phascogale tapoatafa",
+    "penulis": "Karine Ryhorovich",
+    "penerbit": "Divanoodle",
+    "tahun_terbit": 2008,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 73,
+    "judul": "Turtur chalcospilos",
+    "penulis": "Aurore Volkes",
+    "penerbit": "Nlounge",
+    "tahun_terbit": 1994,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 74,
+    "judul": "Otocyon megalotis",
+    "penulis": "Ebenezer McGray",
+    "penerbit": "Livetube",
+    "tahun_terbit": 2012,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 75,
+    "judul": "Hyaena brunnea",
+    "penulis": "Evelin Epsley",
+    "penerbit": "Feedfire",
+    "tahun_terbit": 2005,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 76,
+    "judul": "Tapirus terrestris",
+    "penulis": "Jill Featherstone",
+    "penerbit": "Twimm",
+    "tahun_terbit": 1990,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 77,
+    "judul": "Chionis alba",
+    "penulis": "York Bastock",
+    "penerbit": "Dabvine",
+    "tahun_terbit": 2004,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 78,
+    "judul": "Neotis denhami",
+    "penulis": "Gustie Rembrant",
+    "penerbit": "Quaxo",
+    "tahun_terbit": 2009,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 79,
+    "judul": "Vombatus ursinus",
+    "penulis": "Selinda Chern",
+    "penerbit": "Fatz",
+    "tahun_terbit": 2011,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 80,
+    "judul": "unavailable",
+    "penulis": "Elsi MacIver",
+    "penerbit": "Zoomdog",
+    "tahun_terbit": 1999,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 81,
+    "judul": "Cordylus giganteus",
+    "penulis": "Odelle Lamplough",
+    "penerbit": "Jayo",
+    "tahun_terbit": 2005,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 82,
+    "judul": "Choriotis kori",
+    "penulis": "Keith O' Mullan",
+    "penerbit": "Mudo",
+    "tahun_terbit": 2007,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 83,
+    "judul": "Buteo jamaicensis",
+    "penulis": "Hazel Curner",
+    "penerbit": "Photospace",
+    "tahun_terbit": 2006,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 84,
+    "judul": "Otaria flavescens",
+    "penulis": "Lorrie Dunaway",
+    "penerbit": "Yakijo",
+    "tahun_terbit": 1997,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 85,
+    "judul": "Phasianus colchicus",
+    "penulis": "Conant Skirlin",
+    "penerbit": "Quinu",
+    "tahun_terbit": 2000,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 86,
+    "judul": "Ctenophorus ornatus",
+    "penulis": "Anna-maria Rennebeck",
+    "penerbit": "Riffwire",
+    "tahun_terbit": 2004,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 87,
+    "judul": "Cereopsis novaehollandiae",
+    "penulis": "Dermot Claiden",
+    "penerbit": "Ozu",
+    "tahun_terbit": 2011,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 88,
+    "judul": "Callipepla gambelii",
+    "penulis": "Margit Casado",
+    "penerbit": "Feedspan",
+    "tahun_terbit": 2008,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 89,
+    "judul": "Crax sp.",
+    "penulis": "Tracie Castagnaro",
+    "penerbit": "Thoughtstorm",
+    "tahun_terbit": 2001,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 90,
+    "judul": "Sylvilagus floridanus",
+    "penulis": "Sol Leroy",
+    "penerbit": "Aibox",
+    "tahun_terbit": 1997,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 91,
+    "judul": "Cynomys ludovicianus",
+    "penulis": "Raye Artin",
+    "penerbit": "Muxo",
+    "tahun_terbit": 2004,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 92,
+    "judul": "Chordeiles minor",
+    "penulis": "Vivianne Richmond",
+    "penerbit": "Viva",
+    "tahun_terbit": 1990,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 93,
+    "judul": "Cordylus giganteus",
+    "penulis": "Jennie Bartoszewski",
+    "penerbit": "Tagpad",
+    "tahun_terbit": 1993,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 94,
+    "judul": "Corvus brachyrhynchos",
+    "penulis": "Tiffani O'Shiel",
+    "penerbit": "Youspan",
+    "tahun_terbit": 2001,
+    "status": "borrowed",
+    "lokasi": "Blanco Coffee"
+  },
+  {
+    "id": 95,
+    "judul": "Dusicyon thous",
+    "penulis": "Herbert McClosh",
+    "penerbit": "Riffpath",
+    "tahun_terbit": 2005,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 96,
+    "judul": "Tayassu pecari",
+    "penulis": "Velma Barnham",
+    "penerbit": "Jatri",
+    "tahun_terbit": 2012,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 97,
+    "judul": "Estrilda erythronotos",
+    "penulis": "Tad Gorcke",
+    "penerbit": "Livetube",
+    "tahun_terbit": 2009,
+    "status": "on stock",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 98,
+    "judul": "Spheniscus magellanicus",
+    "penulis": "Tiler Bowne",
+    "penerbit": "Fiveclub",
+    "tahun_terbit": 1996,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 99,
+    "judul": "Ara chloroptera",
+    "penulis": "Elvin Rambaut",
+    "penerbit": "Linklinks",
+    "tahun_terbit": 2005,
+    "status": "borrowed",
+    "lokasi": "Spasso cafe"
+  },
+  {
+    "id": 100,
+    "judul": "Pteropus rufus",
+    "penulis": "Donnie Clelland",
+    "penerbit": "Geba",
+    "tahun_terbit": 2005,
+    "status": "on stock",
+    "lokasi": "Blanco Coffee"
+  }
+]
